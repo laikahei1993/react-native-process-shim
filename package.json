@@ -9,10 +9,12 @@
     "type": "git",
     "url": "https://github.com/staltz/react-native-process-shim"
   },
-  "keywords": ["react-native", "process", "node", "nodejs", "shim"],
-  "license": "MIT",
-  "dependencies": {
-    "react-native-os":
-      "git://github.com/staltz/react-native-os.git#staltz-package"
-  }
+  "keywords": [
+    "react-native",
+    "process",
+    "node",
+    "nodejs",
+    "shim"
+  ],
+  "license": "MIT"
 }

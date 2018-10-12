@@ -1,12 +1,8 @@
-var RNOS = require("react-native-os");
 module.exports = global.process = {
   version: "v7.1.0",
   umask: () => 18,
   cwd: () => "",
   nextTick: setImmediate,
-  env: {
-    HOME: RNOS.homedir()
-  },
   argv: ["react-native", "run-android", "your-app"],
   versions: {}
 };
